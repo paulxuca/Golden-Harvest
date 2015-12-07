@@ -1,0 +1,103 @@
+/* CSS declarations go here */
+
+
+/*General Stuff */
+
+
+
+@media(max-width: 700px){
+	.container{
+		padding: 0 40px 0 40px;
+	}
+}
+
+@media(min-width: 700px and max-width: 800px){
+	.nav-item{
+		margin: 0 5px 0 5px;
+	}
+}
+
+@media(min-width: 800px and max-width: 1000px){
+	.nav-item{
+		margin: 0 10px 0 10px;
+	}
+}
+
+@media(min-width: 1000px){
+	.nav-item{
+		margin: 0 40px 0 40px;
+	}
+}
+
+
+
+.vertical-center{
+	position: relative;
+	top: 50%;
+	-webkit-transform: translateY(-50%);
+	-o-transform: translateY(-50%);
+	transform: translateY(-50%);
+}
+
+.fullpage{
+	height:100vh;
+}
+
+.threequarterpage{
+	height:75vh;
+}
+
+
+/* Navbar Stuff */
+
+.navbar-nav .nav-item{
+	padding-top: 0.7rem;
+	text-transform: uppercase;
+	font-weight: 600;
+}
+
+.navbar-nav .nav-item .nav-link{
+	color:rgba(255,255,255,0.7);
+}
+
+.navbar-nav .nav-item .nav-link:hover{
+	color:rgba(255,255,255,1);
+}
+
+.navbar .navbar-nav {
+  display: inline-block;
+  float: none;
+  vertical-align: top;
+}
+
+.navbar .navbar-collapse {
+  text-align: center;
+}
+
+
+
+/*Homepage Stuff */
+
+.homepage-header-title{
+	font-size:100px;
+	font-weight: 600;
+	line-height: 0.7;
+	font-family: 'Open Sans' , sans-serif;
+}
+.homepage-header-subtitle{
+	letter-spacing: 2px;
+	font-weight: 400;
+	padding-left:8px;
+}
+
+
+/* Menu Stuff */
+
+.menu-title{
+	font-family: 'Open Sans' , sans-serif;
+	height:20vh;
+}
+
+.menu-item{
+	font-family: 'Open Sans' , sans-serif;
+}
